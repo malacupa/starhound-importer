@@ -1,0 +1,21 @@
+{
+  "name": "starhound-import",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+      "build": "babel src/ --ignore \"src/BloodHound/*\" -d bin/"
+  },
+  "author": "malacupa",
+  "dependencies": {
+      "esm": "^3.2.25",
+      "lodash": "^4.17.21",
+      "neo4j-driver": "^5.3.0",
+      "stream-chain": "^2.2.5",
+      "stream-json": "^1.7.5"
+  },
+  "devDependencies": {
+      "@babel/cli": "^7.20.7",
+      "@babel/core": "^7.20.7",
+      "@babel/preset-env": "^7.20.2"
+  }
+}

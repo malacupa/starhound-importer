@@ -1,0 +1,3 @@
+[submodule "src/BloodHound"]
+	path = src/BloodHound
+	url = https://github.com/BloodHoundAD/BloodHound
