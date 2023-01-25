@@ -1,4 +1,4 @@
-# *Hound Importer
+# :star:Hound Importer
 Import data from SharpHound and AzureHound using CLI instead of GUI (BloodHound)[https://github.com/BloodHoundAD/BloodHound] using "BloodHound's code".
 
 **This project has most of its code butchered straight from BloodHound's code.** Therefore big thanks to original authors and enjoy most up-to-date CLI import experience compatible with BloodHound 4.2.
