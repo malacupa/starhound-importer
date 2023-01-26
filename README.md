@@ -1,12 +1,12 @@
 # :star:Hound Importer
-Import data from SharpHound and AzureHound using CLI instead of GUI (BloodHound)[https://github.com/BloodHoundAD/BloodHound] using "BloodHound's code".
+Import data from SharpHound and AzureHound using CLI instead of GUI [BloodHound](https://github.com/BloodHoundAD/BloodHound) using "BloodHound's code".
 
 **This project has most of its code butchered straight from BloodHound's code.** Therefore big thanks to original authors and enjoy most up-to-date CLI import experience compatible with BloodHound 4.2.
 
 # Install
 
  1. Make sure you have your neo4j installed
- 2. Install Node.js version 16. I recommend installing and managing Node.js using (nvm)[https://github.com/nvm-sh/nvm#installing-and-updating]
+ 2. Install Node.js version 16. I recommend installing and managing Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
  3. Run `npm install` to install all dependencies
  4. Run `npm run build` to transpile to JS code compatible with Node.js 16
 
