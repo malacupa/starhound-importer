@@ -5,10 +5,11 @@ Import data from SharpHound and AzureHound using CLI instead of GUI [BloodHound]
 
 # Install
 
- 1. Make sure you have your neo4j installed
- 2. Install Node.js version 16. I recommend installing and managing Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
- 3. Run `npm install --save-dev` to install all dependencies
- 4. Run `npm run build` to transpile to JS code compatible with Node.js 16
+ 1. Clone the repository including it's submodule: `git clone --recurse-submodules -j8 https://github.com/malacupa/starhound-importer`
+ 2. Make sure you have your neo4j installed
+ 3. Install Node.js version 16. I recommend installing and managing Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+ 4. Run `npm install --save-dev` to install all dependencies
+ 5. Run `npm run build` to transpile to JS code compatible with Node.js 16
 
 Now, you should have new file in `bin/main.js` you can use.
 
